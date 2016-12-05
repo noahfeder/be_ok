@@ -1,0 +1,22 @@
+{
+  "name": "be_ok",
+  "version": "0.0.1",
+  "description": "Everything is going to be ok",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "zip -r be_ok.zip index.js node_modules/"
+  },
+  "keywords": [
+    "amazon",
+    "alexa",
+    "skill",
+    "skills",
+    "OK"
+  ],
+  "author": "Noah Feder",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  }
+}
